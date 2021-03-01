@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="/dist/style.css">
+   <title>Site</title>
+</head>
+<body>
+  <header id="top" class="header">
+		<div class="overlay has-fade"></div>
+    <nav class="nav">
+      <a href="/" class="header__logo">
+       	<img src="./images/logo.svg" alt="logo"/>
+      </a>
+
+			<div class="header__menu has-fade">
+				<a class="menu_item"href="#greetings">Home</a>
+				<a class="menu_item"href="#about">About Me</a>
+				<a class="menu_item"href="#skills">Skills</a>
+				<a class="menu_item"href="#contact">Contact</a>
+			</div>
+
+			<div class="header__links">
+				<a href="#greetings">Home</a>
+				<a href="#about">About Me</a>
+				<a href="#skills">Skills</a>
+				<a href="#contact">Contact</a>
+			</div>
+
+			<a id="btnHamburger" href="#" class="header__toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+    </nav>
+  </header>
+	<div id="greetings" class="greetings">
+		<div class="greeting1"data-aos="fade-up" data-aos-duration="500">Hi!</div>
+		<div class="greeting2"data-aos="fade-up" data-aos-duration="1000">I'm Abhinav Pathak</div>
+		<div class="greeting3"data-aos="fade-up" data-aos-duration="1500">Web Development Enthusiast</div>
+	</div>
+
+	<div id="about" class="aboutMe">
+		<div class="aboutMe__content" data-aos="fade-left" data-aos-duration="500">
+			<h1>About Me</h1>
+			<p>
+				I am an undergraduate at GBPIET, Pauri, pursuing B.Tech in Computer Science.
+			</p>
+			<p>
+				Proficient in Data Structures and Algorithms and love to solve problems that 
+				involve creativity and innovation, well versed in programming languages such as C++, Python, 
+				and skilled in web technologies like HTML, CSS and Javascript.
+			</p>
+			<p>
+				I am highly intrested in developing creative webpages and web apps.
+				Aiming to gain knowledge about Fullstack web development by creating dynamic webpages, small games and web apps.
+				Looking for projects to furthur hone my skills. 
+			</p>
+		</div>
+
+		<div class="aboutMe__image" data-aos="fade-ringt" data-aos-duration="500">
+			<img src="./images/1606390828225.jpeg" alt="me" class="image">
+		</div>
+	</div>
+
+	<div id="skills"class="skill_container">
+		<ul class="skills">
+			<li class="skill" data-aos="flip-left" data-aos-duration="300">
+				<div class="skill__name">C++</div>
+				<div class="skill__info">Have 4 year experience using C++. Currently developing small software using the language. Also using it for Competitive Programming.</div>
+			</li>
+			<li class="skill" data-aos="flip-right" data-aos-duration="300">
+				<div class="skill__name">Python</div>
+				<div class="skill__info">Skilled in using Python, using it for Django and using APIs .</div>
+			</li>
+			<li class="skill" data-aos="flip-left" data-aos-duration="300">
+				<div class="skill__name">HTML/CSS</div>
+				<div class="skill__info">Profecient in using HTML. Skilled in using CSS frameworks like Bootstrap, Tailwind CSS.</div>
+			</li>
+			<li class="skill" data-aos="flip-right" data-aos-duration="300">
+				<div class="skill__name">Javascript</div>
+				<div class="skill__info">Learing to use javascript to develop dynamic webpages, by creating small games and specific webpage components.</div>
+			</li>
+			<li class="skill" data-aos="flip-left" data-aos-duration="300">
+				<div class="skill__name">SQL</div>
+				<div class="skill__info">For database management.</div>
+			</li>
+			<li class="skill" data-aos="flip-right" data-aos-duration="300">
+				<div class="skill__name">Django</div>
+				<div class="skill__info">Learing to gain knowledge of Backend Development using Python.</div>
+			</li>
+		</ul>
+	</div>
+
+	<footer id="contact" class="footer">
+		<div class="navigate">
+			<a href="#greetings">Home</a>
+			<a href="#about">About Me</a>
+			<a href="#skills">Skills</a>
+			<a href="#contact">Contact</a>
+		</div>
+		
+		<div class="icons">
+			<a href="https://www.instagram.com/abhinav_pathak19/" target="blank">
+				<img src="./images/instagram.svg" alt="instagram">
+			</a>
+			<a href="https://www.linkedin.com/in/abhinav-pathak-772a83179/" target="blank">
+				<img src="./images/linkedin.svg" alt="linkedin">
+			</a>
+			<a href="https://github.com/AbhinavXT" target="blank">
+				<img src="./images/github.svg" alt="github">
+			</a>
+		</div>
+	</footer>
+	<script src="./app.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init();
+	</script>
+</body>
+</html>
